@@ -22,6 +22,7 @@
 		1F0CD5C32CB17DAE0066AF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0CD5C52CB17DAE0066AF44 /* RealTimeClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RealTimeClock.entitlements; sourceTree = "<group>"; };
 		1F0CD5C72CB17DAE0066AF44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F32B6062CB3095D00AF5092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		1F0CD5BC2CB17DAE0066AF44 /* RealTimeClock */ = {
 			isa = PBXGroup;
 			children = (
+				1F32B6062CB3095D00AF5092 /* Info.plist */,
 				1F0CD5BD2CB17DAE0066AF44 /* RealTimeClockApp.swift */,
 				1F0CD5BF2CB17DAE0066AF44 /* ContentView.swift */,
 				1F0CD5C12CB17DAE0066AF44 /* Item.swift */,
@@ -274,8 +276,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RealTimeClock/Preview Content\"";
+				DEVELOPMENT_TEAM = RA6DFXYHZQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealTimeClock/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -310,8 +316,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RealTimeClock/Preview Content\"";
+				DEVELOPMENT_TEAM = RA6DFXYHZQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealTimeClock/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
